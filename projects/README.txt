@@ -6,9 +6,8 @@ Format:
 * <parente>,<child>
 * projects/your_project/your_orphans_data.csv
 Format:
-* one child per line.
+* one child per line precedeed by a coma: ,<child>
 ParentsFinder.pm will print out a CSV file using the following pattern:
 * projcts/your_project/files/your_project-<current hour>->current-minute>.csv
 Format:
-* <number of line from entry at your_orphans_data.csv>,<parent>,<child>
-
+* <Line number from child entry at your_orphans_data.csv>,<parent>,<child entry>
