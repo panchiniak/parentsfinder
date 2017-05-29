@@ -113,7 +113,7 @@ Options:
 =head1 DESCRIPTION
 ParentFinder iterates orphaned children from data file (orphans) for each parent according to mapping given on
 categories.
-CSV file generated contains pairs: <data line number>,<parent>,<child>.
+CSV file generated contains pairs: <reference line number>,<data line number>,<parent>,<child>.
 =head1 AUTHOR
 Rodrigo Panchiniak Fernandes
 =head1 CAVEAT
